@@ -1,17 +1,6 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define PLUGIN_VERSION "build_241204"
-
-// define the macros to compile the part you need
-#define MODULE_PLAYERINFO 1
-#define MODULE_WELCOMEMSG 1
-#define MODULE_CHANGELOG 1
-#define MODULE_HOURSLIMITER 1
-
-#define APP_L4D2 550
-#define STEAMID_SIZE 32
-
 #include <sourcemod>
 #include <sdktools>
 #include <left4dhooks>
